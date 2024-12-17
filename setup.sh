@@ -5,7 +5,7 @@ GREENCOLOR="\e[32m"
 DEFAULTCOLOR="\e[0m"
 
 setup() {
-    curl -s https://raw.githubusercontent.com/Widiskel/Widiskel/refs/heads/main/show_logo.sh | bash
+    curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/display.sh | bash
     sleep 3
 
     echo "Updating & Upgrading Packages..."
